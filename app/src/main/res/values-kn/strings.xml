@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ವಿರಾಸತ್-ನಮ್ಮ ಗೈಡ್</string>
+    <string name="discover_sites">ಸ್ಥಳಗಳನ್ನು ಆವಿಷ್ಕರಿಸಿ</string>
+    <string name="site_description">ವಿವರಣೆ</string>
+    <string name="scan_qr">ಕ್ಯುಆರ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
+    <string name="check_in">ಚೆಕ್ ಇನ್</string>
+    <string name="play_audio">ಆಡಿಯೋ ಗೈಡ್ ಪ್ಲೇ ಮಾಡಿ</string>
+    <string name="pause_audio">ವಿರಾಮ</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="english">English</string>
+    <string name="qr_scanner_title">ಕ್ಯುಆರ್ ಸ್ಕ್ಯಾನರ್</string>
+    <string name="scan_hint">ಕ್ಯುಆರ್ ಕೋಡ್ ಗೆ ಕ್ಯಾಮೆರಾವನ್ನು ತೋರಿಸಿ</string>
+    <string name="check_in_success">ಯಶಸ್ವಿಯಾಗಿ ಚೆಕ್ ಇನ್ ಆಯಿತು!</string>
+    <string name="hidden_fact">ಮರೆಯಾದ ಸತ್ಯ</string>
+    <string name="travel_passport">ಪ್ರವಾಸ ಪಾಸ್ಪೋರ್ಟ್</string>
+    <string name="nearby_sites">ಹತ್ತಿರದ ಪಾರಂಪರಿಕ ಸ್ಥಳಗಳು</string>
+</resources>

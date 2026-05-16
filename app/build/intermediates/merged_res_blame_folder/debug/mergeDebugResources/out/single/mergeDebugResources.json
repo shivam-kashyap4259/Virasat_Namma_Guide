@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-debug-51:\\drawable_background_temple.xml.flat",
+        "source": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-main-53:\\drawable\\background_temple.xml"
+    },
+    {
+        "merged": "com.virasat.nammaguide.app-debug-51:/layout_activity_main.xml.flat",
+        "source": "com.virasat.nammaguide.app-main-53:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-debug-51:\\layout_activity_qr_scanner.xml.flat",
+        "source": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-main-53:\\layout\\activity_qr_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-debug-51:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-main-53:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-debug-51:\\layout_item_heritage_site.xml.flat",
+        "source": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-main-53:\\layout\\item_heritage_site.xml"
+    },
+    {
+        "merged": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-debug-51:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-main-53:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-debug-51:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-main-53:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-debug-51:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-main-53:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-debug-51:\\layout_activity_site_detail.xml.flat",
+        "source": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-main-53:\\layout\\activity_site_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-debug-51:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-main-53:\\layout\\activity_main.xml"
+    }
+]

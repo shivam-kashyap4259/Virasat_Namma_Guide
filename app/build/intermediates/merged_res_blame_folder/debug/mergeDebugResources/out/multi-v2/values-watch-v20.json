@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.virasat.nammaguide.app-mergeDebugResources-49:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ShaDo\\.gradle\\caches\\8.10\\transforms\\f13a625763d4b85b7814bf0f5b71849e\\transformed\\appcompat-1.7.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

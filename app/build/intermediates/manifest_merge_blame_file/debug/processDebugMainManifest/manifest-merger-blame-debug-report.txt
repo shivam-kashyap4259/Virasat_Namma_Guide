@@ -1,0 +1,275 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.virasat.nammaguide"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <uses-feature
+14-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:7:5-85
+15        android:name="android.hardware.camera"
+15-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:7:19-57
+16        android:required="false" />
+16-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:7:58-82
+17
+18    <permission
+18-->[androidx.core:core:1.15.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\02154e42fba562d5fbf448844d198d4f\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+19        android:name="com.virasat.nammaguide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.15.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\02154e42fba562d5fbf448844d198d4f\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.15.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\02154e42fba562d5fbf448844d198d4f\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.virasat.nammaguide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+22-->[androidx.core:core:1.15.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\02154e42fba562d5fbf448844d198d4f\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.15.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\02154e42fba562d5fbf448844d198d4f\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+23    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ShaDo\.gradle\caches\8.10\transforms\3e9751f52563b376f3fdb80eb861c183\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+24-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ShaDo\.gradle\caches\8.10\transforms\3e9751f52563b376f3fdb80eb861c183\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+25
+26    <application
+26-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:9:5-36:19
+27        android:allowBackup="true"
+27-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:10:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.15.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\02154e42fba562d5fbf448844d198d4f\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:11:9-65
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:12:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:13:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:14:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:15:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:16:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.VirasatNammaGuide" >
+38-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:17:9-55
+39        <activity
+39-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:19:9-27:20
+40            android:name="com.virasat.nammaguide.MainActivity"
+40-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:20:13-41
+41            android:exported="true"
+41-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:21:13-36
+42            android:theme="@style/Theme.VirasatNammaGuide" >
+42-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:22:13-59
+43            <intent-filter>
+43-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:23:13-26:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:24:17-69
+44-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:24:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:25:17-77
+46-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:25:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:28:9-31:62
+50            android:name="com.virasat.nammaguide.SiteDetailActivity"
+50-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:29:13-47
+51            android:exported="false"
+51-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:30:13-37
+52            android:theme="@style/Theme.VirasatNammaGuide" />
+52-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:31:13-59
+53        <activity
+53-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:32:9-35:62
+54            android:name="com.virasat.nammaguide.QrScannerActivity"
+54-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:33:13-46
+55            android:exported="false"
+55-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:34:13-37
+56            android:theme="@style/Theme.VirasatNammaGuide" />
+56-->C:\Users\ShaDo\Desktop\shivam_project\app\src\main\AndroidManifest.xml:35:13-59
+57
+58        <service
+58-->[androidx.camera:camera-camera2:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\5faff198c3a6a22cfc424b303fbd70a3\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:24:9-33:19
+59            android:name="androidx.camera.core.impl.MetadataHolderService"
+59-->[androidx.camera:camera-camera2:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\5faff198c3a6a22cfc424b303fbd70a3\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:25:13-75
+60            android:enabled="false"
+60-->[androidx.camera:camera-camera2:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\5faff198c3a6a22cfc424b303fbd70a3\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:26:13-36
+61            android:exported="false" >
+61-->[androidx.camera:camera-camera2:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\5faff198c3a6a22cfc424b303fbd70a3\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.camera:camera-camera2:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\5faff198c3a6a22cfc424b303fbd70a3\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:30:13-32:89
+63                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+63-->[androidx.camera:camera-camera2:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\5faff198c3a6a22cfc424b303fbd70a3\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:31:17-103
+64                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+64-->[androidx.camera:camera-camera2:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\5faff198c3a6a22cfc424b303fbd70a3\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:32:17-86
+65        </service>
+66        <service
+66-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\ShaDo\.gradle\caches\8.10\transforms\5ad9f65aa917ec47be75cf441396c093\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:9:9-15:19
+67            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+67-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\ShaDo\.gradle\caches\8.10\transforms\5ad9f65aa917ec47be75cf441396c093\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:10:13-91
+68            android:directBootAware="true"
+68-->[com.google.mlkit:common:18.11.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9e0e55b24ef90e4af6ae023ecf004fbb\transformed\jetified-common-18.11.0\AndroidManifest.xml:17:13-43
+69            android:exported="false" >
+69-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\ShaDo\.gradle\caches\8.10\transforms\5ad9f65aa917ec47be75cf441396c093\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:11:13-37
+70            <meta-data
+70-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\ShaDo\.gradle\caches\8.10\transforms\5ad9f65aa917ec47be75cf441396c093\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:12:13-14:85
+71                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+71-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\ShaDo\.gradle\caches\8.10\transforms\5ad9f65aa917ec47be75cf441396c093\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:13:17-120
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\ShaDo\.gradle\caches\8.10\transforms\5ad9f65aa917ec47be75cf441396c093\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:14:17-82
+73            <meta-data
+73-->[com.google.mlkit:vision-common:17.3.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\b7c4b8f7bac36e819d220fa76842ced1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+74                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+74-->[com.google.mlkit:vision-common:17.3.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\b7c4b8f7bac36e819d220fa76842ced1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:13:17-124
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.mlkit:vision-common:17.3.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\b7c4b8f7bac36e819d220fa76842ced1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:14:17-82
+76            <meta-data
+76-->[com.google.mlkit:common:18.11.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9e0e55b24ef90e4af6ae023ecf004fbb\transformed\jetified-common-18.11.0\AndroidManifest.xml:20:13-22:85
+77                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+77-->[com.google.mlkit:common:18.11.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9e0e55b24ef90e4af6ae023ecf004fbb\transformed\jetified-common-18.11.0\AndroidManifest.xml:21:17-120
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.mlkit:common:18.11.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9e0e55b24ef90e4af6ae023ecf004fbb\transformed\jetified-common-18.11.0\AndroidManifest.xml:22:17-82
+79        </service>
+80
+81        <provider
+81-->[com.google.mlkit:common:18.11.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9e0e55b24ef90e4af6ae023ecf004fbb\transformed\jetified-common-18.11.0\AndroidManifest.xml:9:9-13:38
+82            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+82-->[com.google.mlkit:common:18.11.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9e0e55b24ef90e4af6ae023ecf004fbb\transformed\jetified-common-18.11.0\AndroidManifest.xml:10:13-78
+83            android:authorities="com.virasat.nammaguide.mlkitinitprovider"
+83-->[com.google.mlkit:common:18.11.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9e0e55b24ef90e4af6ae023ecf004fbb\transformed\jetified-common-18.11.0\AndroidManifest.xml:11:13-69
+84            android:exported="false"
+84-->[com.google.mlkit:common:18.11.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9e0e55b24ef90e4af6ae023ecf004fbb\transformed\jetified-common-18.11.0\AndroidManifest.xml:12:13-37
+85            android:initOrder="99" />
+85-->[com.google.mlkit:common:18.11.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9e0e55b24ef90e4af6ae023ecf004fbb\transformed\jetified-common-18.11.0\AndroidManifest.xml:13:13-35
+86
+87        <activity
+87-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\7f60f5363d1f311876349a0aa6e0a25f\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+88            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+88-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\7f60f5363d1f311876349a0aa6e0a25f\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+89            android:exported="false"
+89-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\7f60f5363d1f311876349a0aa6e0a25f\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+90-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\7f60f5363d1f311876349a0aa6e0a25f\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+91
+92        <meta-data
+92-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9fe46ff50ea493c8fd7a8ed962156c95\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+93            android:name="com.google.android.gms.version"
+93-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9fe46ff50ea493c8fd7a8ed962156c95\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+94            android:value="@integer/google_play_services_version" />
+94-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9fe46ff50ea493c8fd7a8ed962156c95\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+95
+96        <provider
+96-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\d675df8204d8bc934fb5d70e6af51f2b\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+97            android:name="androidx.startup.InitializationProvider"
+97-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\d675df8204d8bc934fb5d70e6af51f2b\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+98            android:authorities="com.virasat.nammaguide.androidx-startup"
+98-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\d675df8204d8bc934fb5d70e6af51f2b\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+99            android:exported="false" >
+99-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\d675df8204d8bc934fb5d70e6af51f2b\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+100            <meta-data
+100-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\d675df8204d8bc934fb5d70e6af51f2b\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+101                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+101-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\d675df8204d8bc934fb5d70e6af51f2b\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+102                android:value="androidx.startup" />
+102-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\d675df8204d8bc934fb5d70e6af51f2b\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+103            <meta-data
+103-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\ShaDo\.gradle\caches\8.10\transforms\04813e6751e25d1f175449580d6f0c6c\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+104-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\ShaDo\.gradle\caches\8.10\transforms\04813e6751e25d1f175449580d6f0c6c\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+105                android:value="androidx.startup" />
+105-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\ShaDo\.gradle\caches\8.10\transforms\04813e6751e25d1f175449580d6f0c6c\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+108                android:value="androidx.startup" />
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+109        </provider>
+110
+111        <service
+111-->[androidx.room:room-runtime:2.6.1] C:\Users\ShaDo\.gradle\caches\8.10\transforms\5d26f0aef2c78b3e066d63cb91df9c0d\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+112            android:name="androidx.room.MultiInstanceInvalidationService"
+112-->[androidx.room:room-runtime:2.6.1] C:\Users\ShaDo\.gradle\caches\8.10\transforms\5d26f0aef2c78b3e066d63cb91df9c0d\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+113            android:directBootAware="true"
+113-->[androidx.room:room-runtime:2.6.1] C:\Users\ShaDo\.gradle\caches\8.10\transforms\5d26f0aef2c78b3e066d63cb91df9c0d\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+114            android:exported="false" />
+114-->[androidx.room:room-runtime:2.6.1] C:\Users\ShaDo\.gradle\caches\8.10\transforms\5d26f0aef2c78b3e066d63cb91df9c0d\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+115
+116        <receiver
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+117            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+117-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+118            android:directBootAware="false"
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+119            android:enabled="true"
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+120            android:exported="true"
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+121            android:permission="android.permission.DUMP" >
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+123                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+124            </intent-filter>
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+126                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+127            </intent-filter>
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+129                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+129-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+129-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+130            </intent-filter>
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+132                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ShaDo\.gradle\caches\8.10\transforms\e9603f13e7053619da263f1529eb69eb\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+133            </intent-filter>
+134        </receiver>
+135
+136        <service
+136-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ShaDo\.gradle\caches\8.10\transforms\3e9751f52563b376f3fdb80eb861c183\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+137            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+137-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ShaDo\.gradle\caches\8.10\transforms\3e9751f52563b376f3fdb80eb861c183\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+138            android:exported="false" >
+138-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ShaDo\.gradle\caches\8.10\transforms\3e9751f52563b376f3fdb80eb861c183\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+139            <meta-data
+139-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ShaDo\.gradle\caches\8.10\transforms\3e9751f52563b376f3fdb80eb861c183\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+140                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+140-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ShaDo\.gradle\caches\8.10\transforms\3e9751f52563b376f3fdb80eb861c183\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+141                android:value="cct" />
+141-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ShaDo\.gradle\caches\8.10\transforms\3e9751f52563b376f3fdb80eb861c183\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+142        </service>
+143        <service
+143-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9c646fb834d518da5cf052902077e9b5\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+144            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+144-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9c646fb834d518da5cf052902077e9b5\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+145            android:exported="false"
+145-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9c646fb834d518da5cf052902077e9b5\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+146            android:permission="android.permission.BIND_JOB_SERVICE" >
+146-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9c646fb834d518da5cf052902077e9b5\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+147        </service>
+148
+149        <receiver
+149-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9c646fb834d518da5cf052902077e9b5\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+150            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+150-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9c646fb834d518da5cf052902077e9b5\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+151            android:exported="false" />
+151-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ShaDo\.gradle\caches\8.10\transforms\9c646fb834d518da5cf052902077e9b5\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+152    </application>
+153
+154</manifest>

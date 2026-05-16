@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.VirasatNammaGuide" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/temple_primary</item>
+        <item name="colorPrimaryDark">@color/temple_primary_dark</item>
+        <item name="colorAccent">@color/temple_accent</item>
+        <item name="android:windowBackground">@color/temple_background</item>
+        <item name="colorSurface">@color/temple_surface</item>
+        <item name="android:textColorPrimary">@color/temple_text_primary</item>
+        <item name="android:textColorSecondary">@color/temple_text_secondary</item>
+    </style>
+</resources>

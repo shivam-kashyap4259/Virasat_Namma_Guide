@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="temple_accent">#DAA520</color>
+    <color name="temple_background">#FFF8DC</color>
+    <color name="temple_primary">#8B4513</color>
+    <color name="temple_primary_dark">#5D2E0C</color>
+    <color name="temple_surface">#FAEBD7</color>
+    <color name="temple_text_primary">#3E2723</color>
+    <color name="temple_text_secondary">#5D4037</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Virasat-Namma Guide</string>
+    <string name="check_in">Check In</string>
+    <string name="check_in_success">Checked in successfully!</string>
+    <string name="discover_sites">Discover Sites</string>
+    <string name="english">English</string>
+    <string name="hidden_fact">Hidden Fact</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="nearby_sites">Nearby Heritage Sites</string>
+    <string name="pause_audio">Pause</string>
+    <string name="play_audio">Play Audio Guide</string>
+    <string name="qr_scanner_title">QR Scanner</string>
+    <string name="scan_hint">Point camera at QR code</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="site_description">Description</string>
+    <string name="travel_passport">Travel Passport</string>
+    <style name="Theme.VirasatNammaGuide" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/temple_primary</item>
+        <item name="colorPrimaryDark">@color/temple_primary_dark</item>
+        <item name="colorAccent">@color/temple_accent</item>
+        <item name="android:windowBackground">@color/temple_background</item>
+        <item name="colorSurface">@color/temple_surface</item>
+        <item name="android:textColorPrimary">@color/temple_text_primary</item>
+        <item name="android:textColorSecondary">@color/temple_text_secondary</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="temple_primary">#8B4513</color>
+    <color name="temple_primary_dark">#5D2E0C</color>
+    <color name="temple_accent">#DAA520</color>
+    <color name="temple_background">#FFF8DC</color>
+    <color name="temple_surface">#FAEBD7</color>
+    <color name="temple_text_primary">#3E2723</color>
+    <color name="temple_text_secondary">#5D4037</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

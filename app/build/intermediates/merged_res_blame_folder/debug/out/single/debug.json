@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.virasat.nammaguide.app-merged_res-46:/layout_item_heritage_site.xml.flat",
+        "source": "com.virasat.nammaguide.app-main-48:/layout/item_heritage_site.xml"
+    },
+    {
+        "merged": "com.virasat.nammaguide.app-merged_res-46:/xml_data_extraction_rules.xml.flat",
+        "source": "com.virasat.nammaguide.app-main-48:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.virasat.nammaguide.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.virasat.nammaguide.app-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.virasat.nammaguide.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.virasat.nammaguide.app-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.virasat.nammaguide.app-merged_res-46:/layout_activity_site_detail.xml.flat",
+        "source": "com.virasat.nammaguide.app-main-48:/layout/activity_site_detail.xml"
+    },
+    {
+        "merged": "com.virasat.nammaguide.app-merged_res-46:/layout_activity_qr_scanner.xml.flat",
+        "source": "com.virasat.nammaguide.app-main-48:/layout/activity_qr_scanner.xml"
+    },
+    {
+        "merged": "com.virasat.nammaguide.app-merged_res-46:/layout_activity_main.xml.flat",
+        "source": "com.virasat.nammaguide.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.virasat.nammaguide.app-merged_res-46:/xml_backup_rules.xml.flat",
+        "source": "com.virasat.nammaguide.app-main-48:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.virasat.nammaguide.app-merged_res-46:/drawable_background_temple.xml.flat",
+        "source": "com.virasat.nammaguide.app-main-48:/drawable/background_temple.xml"
+    }
+]

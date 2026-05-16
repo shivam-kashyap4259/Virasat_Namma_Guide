@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-mergeDebugResources-50:\\layout\\activity_site_detail.xml",
+        "source": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-main-53:\\layout\\activity_site_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-mergeDebugResources-50:\\layout\\item_heritage_site.xml",
+        "source": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-main-53:\\layout\\item_heritage_site.xml"
+    },
+    {
+        "merged": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-mergeDebugResources-50:\\layout\\activity_qr_scanner.xml",
+        "source": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-main-53:\\layout\\activity_qr_scanner.xml"
+    },
+    {
+        "merged": "com.virasat.nammaguide.app-mergeDebugResources-50:/layout/activity_main.xml",
+        "source": "com.virasat.nammaguide.app-main-53:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-mergeDebugResources-50:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ShaDo\\.gradle\\daemon\\8.10\\com.virasat.nammaguide.app-main-53:\\layout\\activity_main.xml"
+    }
+]

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.virasat.nammaguide.app-mergeDebugResources-49:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ShaDo\\.gradle\\caches\\8.10\\transforms\\f13a625763d4b85b7814bf0f5b71849e\\transformed\\appcompat-1.7.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}
